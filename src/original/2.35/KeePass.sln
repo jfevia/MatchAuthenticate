@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26206.0
+VisualStudioVersion = 15.0.26014.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeePassLib", "KeePassLib\KeePassLib.csproj", "{53573E4E-33CB-4FDB-8698-C95F5E40E7F3}"
 EndProject
@@ -16,7 +16,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MachtAuthenticate.Localizat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MachtAuthenticate.Shared", "..\..\MachtAuthenticate\MachtAuthenticate.Shared\MachtAuthenticate.Shared.csproj", "{5A4C9B3A-1634-4B6D-BBE4-A255112F7576}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MachtAuthenticate.Shared.Wpf", "..\..\MachtAuthenticate\MachtAuthenticate.Shared.Wpf\MachtAuthenticate.Shared.Wpf.csproj", "{09B195C8-1C43-4351-AFA6-57C5436855A7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MachtAuthenticate.Localization.Wpf", "..\..\MachtAuthenticate\MachtAuthenticate.Shared.Wpf\MachtAuthenticate.Localization.Wpf.csproj", "{09B195C8-1C43-4351-AFA6-57C5436855A7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

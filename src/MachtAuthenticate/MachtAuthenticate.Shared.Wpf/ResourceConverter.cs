@@ -1,29 +1,26 @@
-﻿using MachtAuthenticate.Localization;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Data;
 
-namespace MachtAuthenticate.Shared.Wpf
+namespace MachtAuthenticate.Localization.Wpf
 {
-    internal class ResConverter : IValueConverter, IMultiValueConverter
+    internal class ResourceConverter : IValueConverter, IMultiValueConverter
     {
-        /// <summary> This property set from outside by <see cref="ResExtension"/> </summary>
-        public IResKeyProvider KeyProvider { get; set; }
+        /// <summary> This property set from outside by <see cref="ResourceExtension"/> </summary>
+        public IResourceKeyProvider KeyProvider { get; set; }
 
         /// <summary>
-        /// <see cref="ResExtension"/> set itself here.
+        /// <see cref="ResourceExtension"/> set itself here.
         /// </summary>
-        public ResExtension ResExtension { get; set; }
+        public ResourceExtension ResourceExtension { get; set; }
 
         /// <summary>
-        /// Parameters for <see cref="ResExtension"/>
+        /// Parameters for <see cref="ResourceExtension"/>
         /// </summary>
-        public ResParamList Parameters { get; set; }
+        public ResourceParametersList Parameters { get; set; }
 
         /// <summary>
         /// <paramref name="value"/> has to contain value of <see cref="CultureInfo"/> type
@@ -33,7 +30,7 @@ namespace MachtAuthenticate.Shared.Wpf
             string key = KeyProvider.ProvideKey(new[] { value });
             var cultureInfo = value as CultureInfo;
             object localizedObject = ResourceManager.Instance.GetResourceObject(key, cultureInfo);
-            return localizedObject ?? ResExtension.GetDefaultValue(key);
+            return localizedObject ?? ResourceExtension.GetDefaultValue(key);
         }
 
         public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)
@@ -62,24 +59,24 @@ namespace MachtAuthenticate.Shared.Wpf
             {
                 object value = values[i];
                 BindingBase param = Parameters[i];
-                if (param is ResKeyPart)
+                if (param is ResourceKeyPart)
                 {
                     if (value == DependencyProperty.UnsetValue && param.FallbackValue != null)
                         value = param.FallbackValue;
                     if (value != null)
                         resKeyParts.Add(value);
                 }
-                else if (param is ResParam)
+                else if (param is ResourceParameter)
                     resParams.Add(value);
             }
-            CultureInfo cultureInfo = values[values.Length - 1] as CultureInfo;
 
-            string key = KeyProvider.ProvideKey(resKeyParts);
-            object localizedObject = ResourceManager.Instance.GetResourceObject(key, cultureInfo) ??
-                                     ResourceManager.Instance.GetResourceObject(ResExtension.Key, cultureInfo);
+            var cultureInfo = values[values.Length - 1] as CultureInfo;
+            var key = KeyProvider.ProvideKey(resKeyParts);
+            var localizedObject = ResourceManager.Instance.GetResourceObject(key, cultureInfo) ??
+                                     ResourceManager.Instance.GetResourceObject(ResourceExtension.Key, cultureInfo);
             if (localizedObject == null)
             {
-                localizedObject = ResExtension.GetDefaultValue(key);
+                localizedObject = ResourceExtension.GetDefaultValue(key);
             }
             else
             {

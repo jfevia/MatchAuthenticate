@@ -3,7 +3,7 @@ using System.Reflection;
 using System.Windows;
 using System.Windows.Markup;
 
-namespace MachtAuthenticate.Shared.Wpf
+namespace MachtAuthenticate.Localization.Wpf
 {
     public abstract class ManagedMarkupExtension : MarkupExtension
     {
