@@ -1,0 +1,490 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{83C483EF-BBB3-40F7-B3A6-FC151C0E4858}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MachtAuthenticate.Themes.Classic</RootNamespace>
+    <AssemblyName>MachtAuthenticate.Themes.Classic</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\1UpArrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\2DownArrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\2UpArrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Apply.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\ASCII.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Attach.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Binary.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\BlockDevice.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Browser.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Color_Fill.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Colorize.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\CompFile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Configure.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Cut.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\EditCopy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\EditDelete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\EditPaste.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\EditShred.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Error.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Exit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\File_Locked.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\FileNew.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\FilePrint.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\FileQuickPrint.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\FileSave.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\FileSaveAs.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Folder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Folder_Blue_Open.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Folder_Home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Folder_Inbox.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Folder_Locked.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Folder_Outbox.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Folder_Txt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Folder_Yellow_Open.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\FTP.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Help.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\History.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\History_Clear.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\HTML.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\HwInfo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Identity.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\KaboodleLoop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Keyboard_Layout.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\KGPG_Gen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\KGPG_Import.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\KGPG_Info.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\KGPG_Key1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\KGPG_Key2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\KGPG_Key3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\KGPG_Sign.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\KNotes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\KOrganizer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\KRec_Record.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\KTouch.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Laptop_Charge.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Make_KDevelop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\MessageBox_Critical.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\MessageBox_Info.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\MessageBox_Warning.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Misc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\No.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Package_Development.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Package_Settings.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Personal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Redo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Reload_Page.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Spreadsheet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Toggle_Log.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Trashcan_Full.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Undo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\View_Detailed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Wizard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\WWW.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\XMag.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="Images.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\DeleteEntry.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\EditCopyLink.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\EditCopyUrl.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\File_Close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\File_SaveAll.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\File_SaveAll_Disabled.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\FileSave_Disabled.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Folder_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Folder_New_Ex.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Key_New.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\TextAlignCenter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\TextAlignLeft.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\TextAlignRight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Window_2Horz1Vert.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Window_3Horz.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\3BlackDots.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\FontBold.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\FontItalic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\FontStrikeout.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\FontUnderline.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Imp_AmP.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Imp_AnyPw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Imp_CWallet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Imp_Dashlane.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Imp_DataVault.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Imp_DesktopKnox.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Imp_Enpass.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Imp_FlexWallet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Imp_HandySafe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Imp_HandySafePro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Imp_KasperskyPwMgr.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Imp_KeePassX.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Imp_LastPass.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Imp_MSecure.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Imp_NetworkPwMgr.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Imp_NortonIdSafe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Imp_NPassword.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Imp_OnePwPro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Imp_PassKeeper.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Imp_PINs.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Imp_PVault.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Imp_PwAgent.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Imp_PwDepot.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Imp_PwMem2008.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Imp_PwPrompter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Imp_PwSafe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Imp_PwSaver.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Imp_PwsPlus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Imp_PwTresor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Imp_Revelation.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Imp_RoboForm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Imp_SafeWallet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Imp_Security.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Imp_SplashID.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Imp_Steganos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Imp_StickyPw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Imp_TurboPws.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Imp_VisKeeper.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Imp_Whisper32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Imp_ZdnPwPro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\KeePass.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\LockWorkspace.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\MenuCheck.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\MenuRadio.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Transparent.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\WinFavs.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

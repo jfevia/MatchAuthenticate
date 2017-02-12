@@ -1,0 +1,518 @@
+﻿<Window
+    x:Class="MachtAuthenticate.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:tb="http://www.hardcodet.net/taskbar"
+    xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+    Name="MachtAuthenticateWindow"
+    Title="&lt;&gt;"
+    Width="800"
+    Height="350"
+    mc:Ignorable="d">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <tb:TaskbarIcon
+            IconSource="MachtAuthenticate.ico"
+            MenuActivation="LeftOrRightClick"
+            ToolTipText="Macht Authenticate">
+            <tb:TaskbarIcon.ContextMenu>
+                <ContextMenu>
+                    <MenuItem Header="Show Macht Authenticate">
+                        <MenuItem.Icon>
+                            <Image Source="{DynamicResource ViewDetailed}" />
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <Separator />
+                    <MenuItem Header="Generate Password...">
+                        <MenuItem.Icon>
+                            <Image Source="{DynamicResource KeyNew}" />
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <Separator />
+                    <MenuItem Header="Options...">
+                        <MenuItem.Icon>
+                            <Image Source="{DynamicResource Misc}" />
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <Separator />
+                    <MenuItem Header="Lock Workspace">
+                        <MenuItem.Icon>
+                            <Image Source="{DynamicResource LockWorkspace}" />
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <MenuItem Header="Exit">
+                        <MenuItem.Icon>
+                            <Image Source="{DynamicResource Exit}" />
+                        </MenuItem.Icon>
+                    </MenuItem>
+                </ContextMenu>
+            </tb:TaskbarIcon.ContextMenu>
+        </tb:TaskbarIcon>
+        <Menu Grid.Row="0" Grid.Column="0">
+            <MenuItem Header="File">
+                <MenuItem Header="New...">
+                    <MenuItem.Icon>
+                        <Image Source="{DynamicResource FileNew}" />
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem Header="Open">
+                    <MenuItem Header="Open File...">
+                        <MenuItem.Icon>
+                            <Image Source="{DynamicResource FolderYellowOpen}" />
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <MenuItem Header="Open URL...">
+                        &gt;
+                        <MenuItem.Icon>
+                            <Image Source="{DynamicResource Www}" />
+                        </MenuItem.Icon>
+                    </MenuItem>
+                </MenuItem>
+                <MenuItem Header="Open Recent">
+                    <MenuItem Header="&lt;&gt;" />
+                </MenuItem>
+                <MenuItem Header="Close">
+                    <MenuItem.Icon>
+                        <Image Source="{DynamicResource FileClose}" />
+                    </MenuItem.Icon>
+                </MenuItem>
+                <Separator />
+                <MenuItem Header="Save">
+                    <MenuItem.Icon>
+                        <Image Source="{DynamicResource FileSave}" />
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem Header="Save As">
+                    <MenuItem Header="Save to File...">
+                        <MenuItem.Icon>
+                            <Image Source="{DynamicResource FileSaveAs}" />
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <MenuItem Header="Save to URL...">
+                        <MenuItem.Icon>
+                            <Image Source="{DynamicResource Www}" />
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <Separator />
+                    <MenuItem Header="Save Copy to File...">
+                        <MenuItem.Icon>
+                            <Image Source="{DynamicResource FileSaveAs}" />
+                        </MenuItem.Icon>
+                    </MenuItem>
+                </MenuItem>
+                <Separator />
+                <MenuItem Header="Database Settings...">
+                    <MenuItem.Icon>
+                        <Image Source="{DynamicResource PackageDevelopment}" />
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem Header="Change Master Key...">
+                    <MenuItem.Icon>
+                        <Image Source="{DynamicResource FileLocked}" />
+                    </MenuItem.Icon>
+                </MenuItem>
+                <Separator />
+                <MenuItem Header="Print...">
+                    <MenuItem.Icon>
+                        <Image Source="{DynamicResource FilePrint}" />
+                    </MenuItem.Icon>
+                </MenuItem>
+                <Separator />
+                <MenuItem Header="Import...">
+                    <MenuItem.Icon>
+                        <Image Source="{DynamicResource FolderInbox}" />
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem Header="Export...">
+                    <MenuItem.Icon>
+                        <Image Source="{DynamicResource FolderOutbox}" />
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem Header="Synchronize">
+                    <MenuItem Header="Synchronize with File...">
+                        <MenuItem.Icon>
+                            <Image Source="{DynamicResource ReloadPage}" />
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <MenuItem Header="Synchronize with URL...">
+                        <MenuItem.Icon>
+                            <Image Source="{DynamicResource ReloadPage}" />
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <Separator />
+                    <MenuItem Header="Recent Files">
+                        <MenuItem Header="&lt;&gt;" />
+                    </MenuItem>
+                </MenuItem>
+                <Separator />
+                <MenuItem Header="Lock Workspace">
+                    <MenuItem.Icon>
+                        <Image Source="{DynamicResource LockWorkspace}" />
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem Header="Exit">
+                    <MenuItem.Icon>
+                        <Image Source="{DynamicResource Exit}" />
+                    </MenuItem.Icon>
+                </MenuItem>
+            </MenuItem>
+            <MenuItem Header="Edit">
+                <MenuItem Header="Show Entries">
+                    <MenuItem Header="All">
+                        <MenuItem.Icon>
+                            <Image Source="{DynamicResource KgpgKey3}" />
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <Separator />
+                    <MenuItem Header="Expired">
+                        <MenuItem.Icon>
+                            <Image Source="{DynamicResource HistoryClear}" />
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <MenuItem Header="Expiring in 1 Day">
+                        <MenuItem.Icon>
+                            <Image Source="{DynamicResource HistoryClear}" />
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <MenuItem Header="Expiring in 2 Days">
+                        <MenuItem.Icon>
+                            <Image Source="{DynamicResource HistoryClear}" />
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <MenuItem Header="Expiring in 3 Days">
+                        <MenuItem.Icon>
+                            <Image Source="{DynamicResource HistoryClear}" />
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <MenuItem Header="Expiring in 1 Week">
+                        <MenuItem.Icon>
+                            <Image Source="{DynamicResource HistoryClear}" />
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <MenuItem Header="Expiring in 2 Weeks">
+                        <MenuItem.Icon>
+                            <Image Source="{DynamicResource HistoryClear}" />
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <MenuItem Header="Expiring in 4 Weeks">
+                        <MenuItem.Icon>
+                            <Image Source="{DynamicResource HistoryClear}" />
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <MenuItem Header="Expiring in 8 Weeks">
+                        <MenuItem.Icon>
+                            <Image Source="{DynamicResource HistoryClear}" />
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <MenuItem Header="Expiring in the Future">
+                        <MenuItem.Icon>
+                            <Image Source="{DynamicResource HistoryClear}" />
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <Separator />
+                    <MenuItem Header="Selected Entry's Group">
+                        <MenuItem.Icon>
+                            <Image Source="{DynamicResource FolderBlueOpen}" />
+                        </MenuItem.Icon>
+                    </MenuItem>
+                </MenuItem>
+                <MenuItem Header="Show Entries By Tag" />
+                <Separator />
+                <MenuItem Header="Find...">
+                    <MenuItem.Icon>
+                        <Image Source="{DynamicResource XMag}" />
+                    </MenuItem.Icon>
+                </MenuItem>
+            </MenuItem>
+            <MenuItem Header="View">
+                <MenuItem Header="Change Language...">
+                    <MenuItem.Icon>
+                        <Image Source="{DynamicResource KeyboardLayout}" />
+                    </MenuItem.Icon>
+                </MenuItem>
+                <Separator />
+                <MenuItem Header="Show Toolbar" />
+                <MenuItem Header="Show Entry View" />
+                <MenuItem Header="Window Layout">
+                    <MenuItem Header="Stacked">
+                        <MenuItem.Icon>
+                            <Image Source="{DynamicResource Window2Horz1Vert}" />
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <MenuItem Header="Side by Side">
+                        <MenuItem.Icon>
+                            <Image Source="{DynamicResource Window3Horz}" />
+                        </MenuItem.Icon>
+                    </MenuItem>
+                </MenuItem>
+                <Separator />
+                <MenuItem Header="Always On Top" />
+                <Separator />
+                <MenuItem Header="Configure Columns...">
+                    <MenuItem.Icon>
+                        <Image Source="{DynamicResource ViewDetailed}" />
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem Header="Sort By..." />
+                <MenuItem Header="TAN View Options">
+                    <MenuItem Header="Use Simple List View for TAN-Only Groups" />
+                    <MenuItem Header="Show TAN Indices in Entry Titles" />
+                </MenuItem>
+                <MenuItem Header="Grouping in Entry List" />
+                <Separator />
+                <MenuItem Header="Show Entries of Subgroups" />
+            </MenuItem>
+            <MenuItem Header="Tools">
+                <MenuItem Header="Generate Password...">
+                    <MenuItem.Icon>
+                        <Image Source="{DynamicResource KeyNew}" />
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem Header="Generate Password List...">
+                    <MenuItem.Icon>
+                        <Image Source="{DynamicResource KgpgGen}" />
+                    </MenuItem.Icon>
+                </MenuItem>
+                <Separator />
+                <MenuItem Header="TAN Wizard...">
+                    <MenuItem.Icon>
+                        <Image Source="{DynamicResource Wizard}" />
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem Header="Database Tools">
+                    <MenuItem Header="Database Maintenance...">
+                        <MenuItem.Icon>
+                            <Image Source="{DynamicResource PackageSettings}" />
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <Separator />
+                    <MenuItem Header="Delete Duplicated Entries">
+                        <MenuItem.Icon>
+                            <Image Source="{DynamicResource DeleteEntry}" />
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <MenuItem Header="Delete Empty Groups">
+                        <MenuItem.Icon>
+                            <Image Source="{DynamicResource FolderLocked}" />
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <MenuItem Header="Delete Unused Custom Icons">
+                        <MenuItem.Icon>
+                            <Image Source="{DynamicResource TrashcanFull}" />
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <Separator />
+                    <MenuItem Header="XML Replace...">
+                        <MenuItem.Icon>
+                            <Image Source="{DynamicResource Binary}" />
+                        </MenuItem.Icon>
+                    </MenuItem>
+                </MenuItem>
+                <Separator />
+                <MenuItem Header="Triggers...">
+                    <MenuItem.Icon>
+                        <Image Source="{DynamicResource MakeKDevelop}" />
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem Header="Plugins...">
+                    <MenuItem.Icon>
+                        <Image Source="{DynamicResource BlockDevice}" />
+                    </MenuItem.Icon>
+                </MenuItem>
+                <Separator />
+                <MenuItem Header="Options...">
+                    <MenuItem.Icon>
+                        <Image Source="{DynamicResource Misc}" />
+                    </MenuItem.Icon>
+                </MenuItem>
+            </MenuItem>
+            <MenuItem Header="Help">
+                <MenuItem Header="Help Contents">
+                    <MenuItem.Icon>
+                        <Image Source="{DynamicResource ToggleLog}" />
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem Header="Help Source...">
+                    <MenuItem.Icon>
+                        <Image Source="{DynamicResource KOrganizer}" />
+                    </MenuItem.Icon>
+                </MenuItem>
+                <Separator />
+                <MenuItem Header="Macht Authenticate Website...">
+                    <MenuItem.Icon>
+                        <Image Source="{DynamicResource FolderHome}" />
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem Header="Donate...">
+                    <MenuItem.Icon>
+                        <Image Source="{DynamicResource Identity}" />
+                    </MenuItem.Icon>
+                </MenuItem>
+                <Separator />
+                <MenuItem Header="Check for Updates">
+                    <MenuItem.Icon>
+                        <Image Source="{DynamicResource Ftp}" />
+                    </MenuItem.Icon>
+                </MenuItem>
+                <Separator />
+                <MenuItem Header="About Macht Authenticate...">
+                    <MenuItem.Icon>
+                        <Image Source="{DynamicResource Help}" />
+                    </MenuItem.Icon>
+                </MenuItem>
+            </MenuItem>
+        </Menu>
+        <DockPanel Grid.Row="1" Grid.Column="0">
+            <ToolBarTray DockPanel.Dock="Top">
+                <ToolBar>
+                    <Button>
+                        <Image Source="{DynamicResource FileNew}" />
+                    </Button>
+                    <Button>
+                        <Image Source="{DynamicResource FolderYellowOpen}" />
+                    </Button>
+                    <Button>
+                        <Image Source="{DynamicResource FileSave}" />
+                    </Button>
+                    <Button>
+                        <Image Source="{DynamicResource FileSaveAll}" />
+                    </Button>
+                    <ToggleButton Name="ToggleButtonAddEntry" Click="ToggleButtonAddEntryClick">
+                        <Image Source="{DynamicResource KgpgImport}" />
+                    </ToggleButton>
+                    <Popup Name="PopupAddEntry" PlacementTarget="{Binding ElementName=ToggleButtonAddEntry}">
+                        <Popup.Style>
+                            <Style TargetType="{x:Type Popup}">
+                                <Setter Property="StaysOpen" Value="False" />
+                                <EventSetter Event="MenuItem.Click" Handler="PopupDropDownButtonClick" />
+                            </Style>
+                        </Popup.Style>
+                        <Border>
+                            <Border.Style>
+                                <Style TargetType="{x:Type Border}">
+                                    <Setter Property="Background" Value="{StaticResource {x:Static SystemColors.MenuBrushKey}}" />
+                                    <Setter Property="BorderThickness" Value="1" />
+                                    <Setter Property="Padding" Value="2" />
+                                </Style>
+                            </Border.Style>
+                            <StackPanel>
+                                <MenuItem Header="&lt;&gt;">
+                                    <MenuItem.Icon>
+                                        <Image Source="{DynamicResource KgpgImport}" />
+                                    </MenuItem.Icon>
+                                </MenuItem>
+                            </StackPanel>
+                        </Border>
+                    </Popup>
+                    <Separator />
+                    <Button>
+                        <Image Source="{DynamicResource Personal}" />
+                    </Button>
+                    <Button>
+                        <Image Source="{DynamicResource KgpgInfo}" />
+                    </Button>
+                    <xctk:DropDownButton>
+                        <xctk:DropDownButton.DropDownContent>
+                            <MenuItem Header="&lt;&gt;">
+                                <MenuItem.Icon>
+                                    <Image Source="{DynamicResource Ftp}" />
+                                </MenuItem.Icon>
+                            </MenuItem>
+                        </xctk:DropDownButton.DropDownContent>
+                        <Image Source="{DynamicResource Ftp}" />
+                    </xctk:DropDownButton>
+                    <Button>
+                        <Image Source="{DynamicResource EditCopyUrl}" />
+                    </Button>
+                    <Button>
+                        <Image Source="{DynamicResource KTouch}" />
+                    </Button>
+                    <Separator />
+                    <Button>
+                        <Image Source="{DynamicResource XMag}" />
+                    </Button>
+                    <xctk:DropDownButton>
+                        <xctk:DropDownButton.DropDownContent>
+                            <Menu>
+                                <MenuItem Header="&lt;&gt;">
+                                    <MenuItem.Icon>
+                                        <Image Source="{DynamicResource KgpgKey3}" />
+                                    </MenuItem.Icon>
+                                </MenuItem>
+                                <MenuItem Header="&lt;&gt;">
+                                    <MenuItem.Icon>
+                                        <Image Source="{DynamicResource HistoryClear}" />
+                                    </MenuItem.Icon>
+                                </MenuItem>
+                            </Menu>
+                        </xctk:DropDownButton.DropDownContent>
+                        <Image Source="{DynamicResource KgpgKey3}" />
+                    </xctk:DropDownButton>
+                    <Separator />
+                    <Button>
+                        <Image Source="{DynamicResource LockWorkspace}" />
+                    </Button>
+                    <Separator />
+                    <ComboBox Width="120" IsEditable="True" />
+                </ToolBar>
+            </ToolBarTray>
+        </DockPanel>
+        <TabControl Grid.Row="2" Grid.Column="0">
+            <TabItem Header="&lt;&gt;">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="25*" MinWidth="50" />
+                        <ColumnDefinition Width="5" />
+                        <ColumnDefinition Width="75*" MinWidth="50" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="75*" MinHeight="50" />
+                        <RowDefinition Height="5" />
+                        <RowDefinition Height="25*" MinHeight="50" />
+                    </Grid.RowDefinitions>
+                    <GridSplitter
+                        Grid.Row="0"
+                        Grid.Column="1"
+                        Width="5"
+                        HorizontalAlignment="Stretch" />
+                    <GridSplitter
+                        Grid.Row="1"
+                        Grid.Column="0"
+                        Grid.ColumnSpan="3"
+                        Height="5"
+                        HorizontalAlignment="Stretch" />
+                </Grid>
+            </TabItem>
+        </TabControl>
+        <StatusBar Grid.Row="3" Grid.Column="0">
+            <StatusBarItem>
+                <TextBlock Margin="3,2" Text="0 entries" />
+            </StatusBarItem>
+            <Separator />
+            <StatusBarItem>
+                <TextBlock Text="Ready." />
+            </StatusBarItem>
+            <StatusBarItem HorizontalAlignment="Right">
+                <StackPanel Orientation="Horizontal">
+                    <ProgressBar
+                        Width="150"
+                        Height="15"
+                        Margin="3,2"
+                        Minimum="0" />
+                    <ProgressBar
+                        Width="150"
+                        Height="15"
+                        Margin="3,2"
+                        Minimum="0" />
+                </StackPanel>
+            </StatusBarItem>
+        </StatusBar>
+    </Grid>
+</Window>
