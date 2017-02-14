@@ -53,6 +53,9 @@
     <Reference Include="WindowsBase" />
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
+    <Reference Include="XAMLMarkupExtensions, Version=1.2.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\original\2.35\packages\XAMLMarkupExtensions.1.2.2\lib\net40\XAMLMarkupExtensions.dll</HintPath>
+    </Reference>
     <Reference Include="Xceed.Wpf.AvalonDock, Version=3.0.0.0, Culture=neutral, PublicKeyToken=3e4669d2f30244f4, processorArchitecture=MSIL">
       <HintPath>..\..\original\2.35\packages\Extended.Wpf.Toolkit.3.0\lib\net40\Xceed.Wpf.AvalonDock.dll</HintPath>
     </Reference>
@@ -94,20 +97,11 @@
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <EmbeddedResource Include="Properties\Resources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -118,9 +112,21 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\MachtAuthenticate.Localization\MachtAuthenticate.Localization.csproj">
+      <Project>{C0AE72CA-7180-43D6-B487-CC059EFE12B9}</Project>
+      <Name>MachtAuthenticate.Localization</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MachtAuthenticate.Shared\MachtAuthenticate.Shared.csproj">
+      <Project>{5a4c9b3a-1634-4b6d-bbe4-a255112f7576}</Project>
+      <Name>MachtAuthenticate.Shared</Name>
+    </ProjectReference>
     <ProjectReference Include="..\MachtAuthenticate.Themes.Classic\MachtAuthenticate.Themes.Classic.csproj">
       <Project>{83c483ef-bbb3-40f7-b3a6-fc151c0e4858}</Project>
       <Name>MachtAuthenticate.Themes.Classic</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MachtAuthenticate.Translations\MachtAuthenticate.Translations.csproj">
+      <Project>{49686a45-821f-40ab-8385-932c28fca43d}</Project>
+      <Name>MachtAuthenticate.Translations</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

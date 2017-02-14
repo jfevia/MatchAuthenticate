@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26014.0
+VisualStudioVersion = 15.0.26206.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeePassLib", "KeePassLib\KeePassLib.csproj", "{53573E4E-33CB-4FDB-8698-C95F5E40E7F3}"
 EndProject
@@ -16,7 +16,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MachtAuthenticate.Localizat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MachtAuthenticate.Shared", "..\..\MachtAuthenticate\MachtAuthenticate.Shared\MachtAuthenticate.Shared.csproj", "{5A4C9B3A-1634-4B6D-BBE4-A255112F7576}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MachtAuthenticate.Localization.Wpf", "..\..\MachtAuthenticate\MachtAuthenticate.Shared.Wpf\MachtAuthenticate.Localization.Wpf.csproj", "{09B195C8-1C43-4351-AFA6-57C5436855A7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MachtAuthenticate.Translations", "..\..\MachtAuthenticate\MachtAuthenticate.Translations\MachtAuthenticate.Translations.csproj", "{49686A45-821F-40AB-8385-932C28FCA43D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -130,22 +130,22 @@ Global
 		{5A4C9B3A-1634-4B6D-BBE4-A255112F7576}.Release|Win32.Build.0 = Release|Any CPU
 		{5A4C9B3A-1634-4B6D-BBE4-A255112F7576}.Release|x64.ActiveCfg = Release|Any CPU
 		{5A4C9B3A-1634-4B6D-BBE4-A255112F7576}.Release|x64.Build.0 = Release|Any CPU
-		{09B195C8-1C43-4351-AFA6-57C5436855A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{09B195C8-1C43-4351-AFA6-57C5436855A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{09B195C8-1C43-4351-AFA6-57C5436855A7}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
-		{09B195C8-1C43-4351-AFA6-57C5436855A7}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
-		{09B195C8-1C43-4351-AFA6-57C5436855A7}.Debug|Win32.ActiveCfg = Debug|Any CPU
-		{09B195C8-1C43-4351-AFA6-57C5436855A7}.Debug|Win32.Build.0 = Debug|Any CPU
-		{09B195C8-1C43-4351-AFA6-57C5436855A7}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{09B195C8-1C43-4351-AFA6-57C5436855A7}.Debug|x64.Build.0 = Debug|Any CPU
-		{09B195C8-1C43-4351-AFA6-57C5436855A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{09B195C8-1C43-4351-AFA6-57C5436855A7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{09B195C8-1C43-4351-AFA6-57C5436855A7}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
-		{09B195C8-1C43-4351-AFA6-57C5436855A7}.Release|Mixed Platforms.Build.0 = Release|Any CPU
-		{09B195C8-1C43-4351-AFA6-57C5436855A7}.Release|Win32.ActiveCfg = Release|Any CPU
-		{09B195C8-1C43-4351-AFA6-57C5436855A7}.Release|Win32.Build.0 = Release|Any CPU
-		{09B195C8-1C43-4351-AFA6-57C5436855A7}.Release|x64.ActiveCfg = Release|Any CPU
-		{09B195C8-1C43-4351-AFA6-57C5436855A7}.Release|x64.Build.0 = Release|Any CPU
+		{49686A45-821F-40AB-8385-932C28FCA43D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49686A45-821F-40AB-8385-932C28FCA43D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49686A45-821F-40AB-8385-932C28FCA43D}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{49686A45-821F-40AB-8385-932C28FCA43D}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{49686A45-821F-40AB-8385-932C28FCA43D}.Debug|Win32.ActiveCfg = Debug|Any CPU
+		{49686A45-821F-40AB-8385-932C28FCA43D}.Debug|Win32.Build.0 = Debug|Any CPU
+		{49686A45-821F-40AB-8385-932C28FCA43D}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{49686A45-821F-40AB-8385-932C28FCA43D}.Debug|x64.Build.0 = Debug|Any CPU
+		{49686A45-821F-40AB-8385-932C28FCA43D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49686A45-821F-40AB-8385-932C28FCA43D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49686A45-821F-40AB-8385-932C28FCA43D}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{49686A45-821F-40AB-8385-932C28FCA43D}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{49686A45-821F-40AB-8385-932C28FCA43D}.Release|Win32.ActiveCfg = Release|Any CPU
+		{49686A45-821F-40AB-8385-932C28FCA43D}.Release|Win32.Build.0 = Release|Any CPU
+		{49686A45-821F-40AB-8385-932C28FCA43D}.Release|x64.ActiveCfg = Release|Any CPU
+		{49686A45-821F-40AB-8385-932C28FCA43D}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
