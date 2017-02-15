@@ -463,6 +463,13 @@
                     </Button>
                     <Separator />
                     <ComboBox Width="120" IsEditable="True" />
+                    <Separator />
+                    <Image Source="{DynamicResource KeyboardLayout}" />
+                    <ComboBox DisplayMemberPath="DisplayName"
+                              ItemsSource="{Binding Source={x:Static providers:LocalizeDictionary.Instance},
+                                                    Path=MergedAvailableCultures}"
+                              SelectedItem="{Binding Source={x:Static providers:LocalizeDictionary.Instance},
+                                                     Path=Culture}" />
                 </ToolBar>
             </ToolBarTray>
         </DockPanel>

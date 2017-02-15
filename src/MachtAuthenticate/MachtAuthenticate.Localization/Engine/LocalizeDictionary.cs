@@ -723,9 +723,9 @@ namespace MachtAuthenticate.Localization.Engine
 
         /// <summary>
         ///     Gets or sets the <see cref="CultureInfo" /> for localization.
-        ///     On set, <see cref="LocalizeDictionary.DictionaryEvent" /> is raised.
+        ///     On set, <see cref="DictionaryEvent" /> is raised.
         /// </summary>
-        /// <exception cref="System.InvalidOperationException">
+        /// <exception cref="InvalidOperationException">
         ///     You have to set <see cref="LocalizeDictionary" />.Culture first or
         ///     wait until System.Windows.Application.Current.MainWindow is created.
         ///     Otherwise you will get an Exception.
