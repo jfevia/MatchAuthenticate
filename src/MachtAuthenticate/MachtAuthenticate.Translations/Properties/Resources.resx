@@ -120,4 +120,70 @@
   <data name="MenuFile" xml:space="preserve">
     <value>File</value>
   </data>
+  <data name="MenuNew" xml:space="preserve">
+    <value>New...</value>
+  </data>
+  <data name="MenuOpen" xml:space="preserve">
+    <value>Open</value>
+  </data>
+  <data name="MenuOpenFile" xml:space="preserve">
+    <value>Open File...</value>
+  </data>
+  <data name="MenuOpenUrl" xml:space="preserve">
+    <value>Open URL...</value>
+  </data>
+  <data name="MenuOpenRecent" xml:space="preserve">
+    <value>Open Recent</value>
+  </data>
+  <data name="MenuClose" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="MenuSave" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="MenuSaveAs" xml:space="preserve">
+    <value>Save As</value>
+  </data>
+  <data name="MenuSaveToFile" xml:space="preserve">
+    <value>Save to File...</value>
+  </data>
+  <data name="MenuSaveToUrl" xml:space="preserve">
+    <value>Save to URL...</value>
+  </data>
+  <data name="MenuSaveCopyToFile" xml:space="preserve">
+    <value>Save Copy to File...</value>
+  </data>
+  <data name="MenuDatabaseSettings" xml:space="preserve">
+    <value>Database Settings...</value>
+  </data>
+  <data name="MenuChangeMasterKey" xml:space="preserve">
+    <value>Change Master Key...</value>
+  </data>
+  <data name="MenuPrint" xml:space="preserve">
+    <value>Print...</value>
+  </data>
+  <data name="MenuImport" xml:space="preserve">
+    <value>Import...</value>
+  </data>
+  <data name="MenuExport" xml:space="preserve">
+    <value>Export...</value>
+  </data>
+  <data name="MenuSynchronize" xml:space="preserve">
+    <value>Synchronize</value>
+  </data>
+  <data name="MenuSynchronizeWithFile" xml:space="preserve">
+    <value>Synchronize with File...</value>
+  </data>
+  <data name="MenuSynchronizeWithUrl" xml:space="preserve">
+    <value>Synchronize with URL...</value>
+  </data>
+  <data name="MenySynchronizeRecentFiles" xml:space="preserve">
+    <value>Recent Files</value>
+  </data>
+  <data name="MenuLockWorkspace" xml:space="preserve">
+    <value>Lock Workspace</value>
+  </data>
+  <data name="MenuExit" xml:space="preserve">
+    <value>Exit</value>
+  </data>
 </root>

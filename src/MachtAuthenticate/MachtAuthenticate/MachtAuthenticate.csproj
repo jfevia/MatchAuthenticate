@@ -113,7 +113,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\MachtAuthenticate.Localization\MachtAuthenticate.Localization.csproj">
-      <Project>{C0AE72CA-7180-43D6-B487-CC059EFE12B9}</Project>
+      <Project>{c0ae72ca-7180-43d6-b487-cc059efe12b9}</Project>
       <Name>MachtAuthenticate.Localization</Name>
     </ProjectReference>
     <ProjectReference Include="..\MachtAuthenticate.Shared\MachtAuthenticate.Shared.csproj">

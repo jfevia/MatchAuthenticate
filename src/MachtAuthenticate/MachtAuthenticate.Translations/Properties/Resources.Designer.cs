@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace MachtAuthenticate.Properties {
+namespace MachtAuthenticate.Translations.Properties {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace MachtAuthenticate.Properties {
         public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("MachtAuthenticate.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("MachtAuthenticate.Translations.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -61,11 +61,209 @@ namespace MachtAuthenticate.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Change Master Key....
+        /// </summary>
+        public static string MenuChangeMasterKey {
+            get {
+                return ResourceManager.GetString("MenuChangeMasterKey", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Close.
+        /// </summary>
+        public static string MenuClose {
+            get {
+                return ResourceManager.GetString("MenuClose", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Database Settings....
+        /// </summary>
+        public static string MenuDatabaseSettings {
+            get {
+                return ResourceManager.GetString("MenuDatabaseSettings", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Exit.
+        /// </summary>
+        public static string MenuExit {
+            get {
+                return ResourceManager.GetString("MenuExit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Export....
+        /// </summary>
+        public static string MenuExport {
+            get {
+                return ResourceManager.GetString("MenuExport", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to File.
         /// </summary>
         public static string MenuFile {
             get {
                 return ResourceManager.GetString("MenuFile", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Import....
+        /// </summary>
+        public static string MenuImport {
+            get {
+                return ResourceManager.GetString("MenuImport", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Lock Workspace.
+        /// </summary>
+        public static string MenuLockWorkspace {
+            get {
+                return ResourceManager.GetString("MenuLockWorkspace", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to New....
+        /// </summary>
+        public static string MenuNew {
+            get {
+                return ResourceManager.GetString("MenuNew", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Open.
+        /// </summary>
+        public static string MenuOpen {
+            get {
+                return ResourceManager.GetString("MenuOpen", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Open File....
+        /// </summary>
+        public static string MenuOpenFile {
+            get {
+                return ResourceManager.GetString("MenuOpenFile", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Open Recent.
+        /// </summary>
+        public static string MenuOpenRecent {
+            get {
+                return ResourceManager.GetString("MenuOpenRecent", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Open URL....
+        /// </summary>
+        public static string MenuOpenUrl {
+            get {
+                return ResourceManager.GetString("MenuOpenUrl", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Print....
+        /// </summary>
+        public static string MenuPrint {
+            get {
+                return ResourceManager.GetString("MenuPrint", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Save.
+        /// </summary>
+        public static string MenuSave {
+            get {
+                return ResourceManager.GetString("MenuSave", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Save As.
+        /// </summary>
+        public static string MenuSaveAs {
+            get {
+                return ResourceManager.GetString("MenuSaveAs", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Save Copy to File....
+        /// </summary>
+        public static string MenuSaveCopyToFile {
+            get {
+                return ResourceManager.GetString("MenuSaveCopyToFile", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Save to File....
+        /// </summary>
+        public static string MenuSaveToFile {
+            get {
+                return ResourceManager.GetString("MenuSaveToFile", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Save to URL....
+        /// </summary>
+        public static string MenuSaveToUrl {
+            get {
+                return ResourceManager.GetString("MenuSaveToUrl", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Synchronize.
+        /// </summary>
+        public static string MenuSynchronize {
+            get {
+                return ResourceManager.GetString("MenuSynchronize", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Synchronize with File....
+        /// </summary>
+        public static string MenuSynchronizeWithFile {
+            get {
+                return ResourceManager.GetString("MenuSynchronizeWithFile", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Synchronize with URL....
+        /// </summary>
+        public static string MenuSynchronizeWithUrl {
+            get {
+                return ResourceManager.GetString("MenuSynchronizeWithUrl", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Recent Files.
+        /// </summary>
+        public static string MenySynchronizeRecentFiles {
+            get {
+                return ResourceManager.GetString("MenySynchronizeRecentFiles", resourceCulture);
             }
         }
     }

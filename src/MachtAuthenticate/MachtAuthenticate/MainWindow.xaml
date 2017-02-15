@@ -11,8 +11,9 @@
         Width="800"
         Height="350"
         providers:LocalizeDictionary.DesignCulture="en"
+        providers:LocalizeDictionary.OutputMissingKeys="True"
         providers:ResxLocalizationProvider.DefaultAssembly="MachtAuthenticate.Translations"
-        providers:ResxLocalizationProvider.DefaultDictionary="Strings"
+        providers:ResxLocalizationProvider.DefaultDictionary="Resources"
         mc:Ignorable="d">
     <Grid>
         <Grid.RowDefinitions>
@@ -59,107 +60,106 @@
         </tb:TaskbarIcon>
         <Menu Grid.Row="0" Grid.Column="0">
             <MenuItem Header="{providers:LocalizationResource MenuFile}">
-                <MenuItem Header="New...">
+                <MenuItem Header="{providers:LocalizationResource MenuNew}">
                     <MenuItem.Icon>
                         <Image Source="{DynamicResource FileNew}" />
                     </MenuItem.Icon>
                 </MenuItem>
-                <MenuItem Header="Open">
-                    <MenuItem Header="Open File...">
+                <MenuItem Header="{providers:LocalizationResource MenuOpen}">
+                    <MenuItem Header="{providers:LocalizationResource MenuOpenFile}">
                         <MenuItem.Icon>
                             <Image Source="{DynamicResource FolderYellowOpen}" />
                         </MenuItem.Icon>
                     </MenuItem>
-                    <MenuItem Header="Open URL...">
-                        &gt;
+                    <MenuItem Header="{providers:LocalizationResource MenuOpenUrl}">
                         <MenuItem.Icon>
                             <Image Source="{DynamicResource Www}" />
                         </MenuItem.Icon>
                     </MenuItem>
                 </MenuItem>
-                <MenuItem Header="Open Recent">
+                <MenuItem Header="{providers:LocalizationResource MenuOpenRecent}">
                     <MenuItem Header="&lt;&gt;" />
                 </MenuItem>
-                <MenuItem Header="Close">
+                <MenuItem Header="{providers:LocalizationResource MenuClose}">
                     <MenuItem.Icon>
                         <Image Source="{DynamicResource FileClose}" />
                     </MenuItem.Icon>
                 </MenuItem>
                 <Separator />
-                <MenuItem Header="Save">
+                <MenuItem Header="{providers:LocalizationResource MenuSave}">
                     <MenuItem.Icon>
                         <Image Source="{DynamicResource FileSave}" />
                     </MenuItem.Icon>
                 </MenuItem>
-                <MenuItem Header="Save As">
-                    <MenuItem Header="Save to File...">
+                <MenuItem Header="{providers:LocalizationResource MenuSaveAs}">
+                    <MenuItem Header="{providers:LocalizationResource MenuSaveToFile}">
                         <MenuItem.Icon>
                             <Image Source="{DynamicResource FileSaveAs}" />
                         </MenuItem.Icon>
                     </MenuItem>
-                    <MenuItem Header="Save to URL...">
+                    <MenuItem Header="{providers:LocalizationResource MenuSaveToUrl}">
                         <MenuItem.Icon>
                             <Image Source="{DynamicResource Www}" />
                         </MenuItem.Icon>
                     </MenuItem>
                     <Separator />
-                    <MenuItem Header="Save Copy to File...">
+                    <MenuItem Header="{providers:LocalizationResource MenuSaveCopyToFile}">
                         <MenuItem.Icon>
                             <Image Source="{DynamicResource FileSaveAs}" />
                         </MenuItem.Icon>
                     </MenuItem>
                 </MenuItem>
                 <Separator />
-                <MenuItem Header="Database Settings...">
+                <MenuItem Header="{providers:LocalizationResource MenuDatabaseSettings}">
                     <MenuItem.Icon>
                         <Image Source="{DynamicResource PackageDevelopment}" />
                     </MenuItem.Icon>
                 </MenuItem>
-                <MenuItem Header="Change Master Key...">
+                <MenuItem Header="{providers:LocalizationResource MenuChangeMasterKey}">
                     <MenuItem.Icon>
                         <Image Source="{DynamicResource FileLocked}" />
                     </MenuItem.Icon>
                 </MenuItem>
                 <Separator />
-                <MenuItem Header="Print...">
+                <MenuItem Header="{providers:LocalizationResource MenuPrint}">
                     <MenuItem.Icon>
                         <Image Source="{DynamicResource FilePrint}" />
                     </MenuItem.Icon>
                 </MenuItem>
                 <Separator />
-                <MenuItem Header="Import...">
+                <MenuItem Header="{providers:LocalizationResource MenuImport}">
                     <MenuItem.Icon>
                         <Image Source="{DynamicResource FolderInbox}" />
                     </MenuItem.Icon>
                 </MenuItem>
-                <MenuItem Header="Export...">
+                <MenuItem Header="{providers:LocalizationResource MenuExport}">
                     <MenuItem.Icon>
                         <Image Source="{DynamicResource FolderOutbox}" />
                     </MenuItem.Icon>
                 </MenuItem>
-                <MenuItem Header="Synchronize">
-                    <MenuItem Header="Synchronize with File...">
+                <MenuItem Header="{providers:LocalizationResource MenuSynchronize}">
+                    <MenuItem Header="{providers:LocalizationResource MenuSynchronizeWithFile}">
                         <MenuItem.Icon>
                             <Image Source="{DynamicResource ReloadPage}" />
                         </MenuItem.Icon>
                     </MenuItem>
-                    <MenuItem Header="Synchronize with URL...">
+                    <MenuItem Header="{providers:LocalizationResource MenuSynchronizeWithUrl}">
                         <MenuItem.Icon>
                             <Image Source="{DynamicResource ReloadPage}" />
                         </MenuItem.Icon>
                     </MenuItem>
                     <Separator />
-                    <MenuItem Header="Recent Files">
+                    <MenuItem Header="{providers:LocalizationResource MenySynchronizeRecentFiles}">
                         <MenuItem Header="&lt;&gt;" />
                     </MenuItem>
                 </MenuItem>
                 <Separator />
-                <MenuItem Header="Lock Workspace">
+                <MenuItem Header="{providers:LocalizationResource MenuLockWorkspace}">
                     <MenuItem.Icon>
                         <Image Source="{DynamicResource LockWorkspace}" />
                     </MenuItem.Icon>
                 </MenuItem>
-                <MenuItem Header="Exit">
+                <MenuItem Header="{providers:LocalizationResource MenuExit}">
                     <MenuItem.Icon>
                         <Image Source="{DynamicResource Exit}" />
                     </MenuItem.Icon>
