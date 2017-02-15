@@ -177,7 +177,7 @@
   <data name="MenuSynchronizeWithUrl" xml:space="preserve">
     <value>Sincronizar con URL...</value>
   </data>
-  <data name="MenySynchronizeRecentFiles" xml:space="preserve">
+  <data name="MenuSynchronizeRecentFiles" xml:space="preserve">
     <value>Archivos Recientes</value>
   </data>
   <data name="MenuLockWorkspace" xml:space="preserve">

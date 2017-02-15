@@ -61,11 +61,56 @@ namespace MachtAuthenticate.Translations.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to About Macht Authenticate....
+        /// </summary>
+        public static string MenuAboutApp {
+            get {
+                return ResourceManager.GetString("MenuAboutApp", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Always On Top.
+        /// </summary>
+        public static string MenuAlwaysOnTop {
+            get {
+                return ResourceManager.GetString("MenuAlwaysOnTop", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Macht Authenticate Website....
+        /// </summary>
+        public static string MenuAppWebsite {
+            get {
+                return ResourceManager.GetString("MenuAppWebsite", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Change Language....
+        /// </summary>
+        public static string MenuChangeLanguage {
+            get {
+                return ResourceManager.GetString("MenuChangeLanguage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Change Master Key....
         /// </summary>
         public static string MenuChangeMasterKey {
             get {
                 return ResourceManager.GetString("MenuChangeMasterKey", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Check for Updates.
+        /// </summary>
+        public static string MenuCheckUpdates {
+            get {
+                return ResourceManager.GetString("MenuCheckUpdates", resourceCulture);
             }
         }
         
@@ -79,11 +124,92 @@ namespace MachtAuthenticate.Translations.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Configure Columns....
+        /// </summary>
+        public static string MenuConfigureColumns {
+            get {
+                return ResourceManager.GetString("MenuConfigureColumns", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Database Maintenance....
+        /// </summary>
+        public static string MenuDatabaseMaintenance {
+            get {
+                return ResourceManager.GetString("MenuDatabaseMaintenance", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Database Settings....
         /// </summary>
         public static string MenuDatabaseSettings {
             get {
                 return ResourceManager.GetString("MenuDatabaseSettings", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Database Tools.
+        /// </summary>
+        public static string MenuDatabaseTools {
+            get {
+                return ResourceManager.GetString("MenuDatabaseTools", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Delete Duplicated Entries.
+        /// </summary>
+        public static string MenuDeleteDuplicatedEntries {
+            get {
+                return ResourceManager.GetString("MenuDeleteDuplicatedEntries", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Delete Empty Groups.
+        /// </summary>
+        public static string MenuDeleteEmptyGroups {
+            get {
+                return ResourceManager.GetString("MenuDeleteEmptyGroups", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Delete Unused Custom Icons.
+        /// </summary>
+        public static string MenuDeleteUnusedCustomIcons {
+            get {
+                return ResourceManager.GetString("MenuDeleteUnusedCustomIcons", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Donate....
+        /// </summary>
+        public static string MenuDonate {
+            get {
+                return ResourceManager.GetString("MenuDonate", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Edit.
+        /// </summary>
+        public static string MenuEdit {
+            get {
+                return ResourceManager.GetString("MenuEdit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Show Entry View.
+        /// </summary>
+        public static string MenuEntryView {
+            get {
+                return ResourceManager.GetString("MenuEntryView", resourceCulture);
             }
         }
         
@@ -111,6 +237,69 @@ namespace MachtAuthenticate.Translations.Properties {
         public static string MenuFile {
             get {
                 return ResourceManager.GetString("MenuFile", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Find....
+        /// </summary>
+        public static string MenuFind {
+            get {
+                return ResourceManager.GetString("MenuFind", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Generate Password....
+        /// </summary>
+        public static string MenuGeneratePassword {
+            get {
+                return ResourceManager.GetString("MenuGeneratePassword", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Generate Password List....
+        /// </summary>
+        public static string MenuGeneratePasswordList {
+            get {
+                return ResourceManager.GetString("MenuGeneratePasswordList", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Grouping in Entry List.
+        /// </summary>
+        public static string MenuGroupingInEntryList {
+            get {
+                return ResourceManager.GetString("MenuGroupingInEntryList", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Help.
+        /// </summary>
+        public static string MenuHelp {
+            get {
+                return ResourceManager.GetString("MenuHelp", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Help Contents.
+        /// </summary>
+        public static string MenuHelpContents {
+            get {
+                return ResourceManager.GetString("MenuHelpContents", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Help Source....
+        /// </summary>
+        public static string MenuHelpSource {
+            get {
+                return ResourceManager.GetString("MenuHelpSource", resourceCulture);
             }
         }
         
@@ -178,6 +367,24 @@ namespace MachtAuthenticate.Translations.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Options....
+        /// </summary>
+        public static string MenuOptions {
+            get {
+                return ResourceManager.GetString("MenuOptions", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Plugins....
+        /// </summary>
+        public static string MenuPlugins {
+            get {
+                return ResourceManager.GetString("MenuPlugins", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Print....
         /// </summary>
         public static string MenuPrint {
@@ -232,11 +439,164 @@ namespace MachtAuthenticate.Translations.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Selected Entry&apos;s Group.
+        /// </summary>
+        public static string MenuSelectedEntryGroup {
+            get {
+                return ResourceManager.GetString("MenuSelectedEntryGroup", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to All.
+        /// </summary>
+        public static string MenuShowAllEntries {
+            get {
+                return ResourceManager.GetString("MenuShowAllEntries", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Show Entries.
+        /// </summary>
+        public static string MenuShowEntries {
+            get {
+                return ResourceManager.GetString("MenuShowEntries", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Show Entries By Tag.
+        /// </summary>
+        public static string MenuShowEntriesByTag {
+            get {
+                return ResourceManager.GetString("MenuShowEntriesByTag", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Expiring in 1 Day.
+        /// </summary>
+        public static string MenuShowEntriesExpiringIn1Day {
+            get {
+                return ResourceManager.GetString("MenuShowEntriesExpiringIn1Day", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Expiring in 1 Week.
+        /// </summary>
+        public static string MenuShowEntriesExpiringIn1Week {
+            get {
+                return ResourceManager.GetString("MenuShowEntriesExpiringIn1Week", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Expiring in 2 Days.
+        /// </summary>
+        public static string MenuShowEntriesExpiringIn2Days {
+            get {
+                return ResourceManager.GetString("MenuShowEntriesExpiringIn2Days", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Expiring in 2 Weeks.
+        /// </summary>
+        public static string MenuShowEntriesExpiringIn2Weeks {
+            get {
+                return ResourceManager.GetString("MenuShowEntriesExpiringIn2Weeks", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Expiring in 3 Days.
+        /// </summary>
+        public static string MenuShowEntriesExpiringIn3Days {
+            get {
+                return ResourceManager.GetString("MenuShowEntriesExpiringIn3Days", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Expiring in 4 Weeks.
+        /// </summary>
+        public static string MenuShowEntriesExpiringIn4Weeks {
+            get {
+                return ResourceManager.GetString("MenuShowEntriesExpiringIn4Weeks", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Expiring in 8 Weeks.
+        /// </summary>
+        public static string MenuShowEntriesExpiringIn8Weeks {
+            get {
+                return ResourceManager.GetString("MenuShowEntriesExpiringIn8Weeks", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Expiring in the Future.
+        /// </summary>
+        public static string MenuShowEntriesExpiringInFuture {
+            get {
+                return ResourceManager.GetString("MenuShowEntriesExpiringInFuture", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Expired.
+        /// </summary>
+        public static string MenuShowExpiredEntries {
+            get {
+                return ResourceManager.GetString("MenuShowExpiredEntries", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Show Entries of Subgroups.
+        /// </summary>
+        public static string MenuShowSubgroupEntries {
+            get {
+                return ResourceManager.GetString("MenuShowSubgroupEntries", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Show Toolbar.
+        /// </summary>
+        public static string MenuShowToolbar {
+            get {
+                return ResourceManager.GetString("MenuShowToolbar", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Sort By....
+        /// </summary>
+        public static string MenuSortBy {
+            get {
+                return ResourceManager.GetString("MenuSortBy", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Synchronize.
         /// </summary>
         public static string MenuSynchronize {
             get {
                 return ResourceManager.GetString("MenuSynchronize", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Recent Files.
+        /// </summary>
+        public static string MenuSynchronizeRecentFiles {
+            get {
+                return ResourceManager.GetString("MenuSynchronizeRecentFiles", resourceCulture);
             }
         }
         
@@ -259,11 +619,101 @@ namespace MachtAuthenticate.Translations.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Recent Files.
+        ///   Looks up a localized string similar to TAN View Options.
         /// </summary>
-        public static string MenySynchronizeRecentFiles {
+        public static string MenuTanViewOptions {
             get {
-                return ResourceManager.GetString("MenySynchronizeRecentFiles", resourceCulture);
+                return ResourceManager.GetString("MenuTanViewOptions", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Show TAN Indices in Entry Titles.
+        /// </summary>
+        public static string MenuTanViewOptionsShowTanIndicesInEntryTitles {
+            get {
+                return ResourceManager.GetString("MenuTanViewOptionsShowTanIndicesInEntryTitles", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Use Simple List View for TAN-Only Groups.
+        /// </summary>
+        public static string MenuTanViewOptionsSimpleListViewTanOnlyGroups {
+            get {
+                return ResourceManager.GetString("MenuTanViewOptionsSimpleListViewTanOnlyGroups", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to TAN Wizard....
+        /// </summary>
+        public static string MenuTanWizard {
+            get {
+                return ResourceManager.GetString("MenuTanWizard", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Tools.
+        /// </summary>
+        public static string MenuTools {
+            get {
+                return ResourceManager.GetString("MenuTools", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Triggers....
+        /// </summary>
+        public static string MenuTriggers {
+            get {
+                return ResourceManager.GetString("MenuTriggers", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to View.
+        /// </summary>
+        public static string MenuView {
+            get {
+                return ResourceManager.GetString("MenuView", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Window Layout.
+        /// </summary>
+        public static string MenuWindowLayout {
+            get {
+                return ResourceManager.GetString("MenuWindowLayout", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Side by Side.
+        /// </summary>
+        public static string MenuWindowLayoutSideBySide {
+            get {
+                return ResourceManager.GetString("MenuWindowLayoutSideBySide", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Stacked.
+        /// </summary>
+        public static string MenuWindowLayoutStacked {
+            get {
+                return ResourceManager.GetString("MenuWindowLayoutStacked", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to XML Replace....
+        /// </summary>
+        public static string MenuXmlReplace {
+            get {
+                return ResourceManager.GetString("MenuXmlReplace", resourceCulture);
             }
         }
     }

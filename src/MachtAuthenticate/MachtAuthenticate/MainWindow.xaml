@@ -3,6 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:properties="clr-namespace:MachtAuthenticate.Translations.Properties;assembly=MachtAuthenticate.Translations"
         xmlns:providers="http://wpflocalizeextension.codeplex.com"
         xmlns:tb="http://www.hardcodet.net/taskbar"
         xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
@@ -149,7 +150,7 @@
                         </MenuItem.Icon>
                     </MenuItem>
                     <Separator />
-                    <MenuItem Header="{providers:LocalizationResource MenySynchronizeRecentFiles}">
+                    <MenuItem Header="{providers:LocalizationResource MenuSynchronizeRecentFiles}">
                         <MenuItem Header="&lt;&gt;" />
                     </MenuItem>
                 </MenuItem>
@@ -165,206 +166,206 @@
                     </MenuItem.Icon>
                 </MenuItem>
             </MenuItem>
-            <MenuItem Header="Edit">
-                <MenuItem Header="Show Entries">
-                    <MenuItem Header="All">
+            <MenuItem Header="{providers:LocalizationResource MenuEdit}">
+                <MenuItem Header="{providers:LocalizationResource MenuShowEntries}">
+                    <MenuItem Header="{providers:LocalizationResource MenuShowAllEntries}">
                         <MenuItem.Icon>
                             <Image Source="{DynamicResource KgpgKey3}" />
                         </MenuItem.Icon>
                     </MenuItem>
                     <Separator />
-                    <MenuItem Header="Expired">
+                    <MenuItem Header="{providers:LocalizationResource MenuShowExpiredEntries}">
                         <MenuItem.Icon>
                             <Image Source="{DynamicResource HistoryClear}" />
                         </MenuItem.Icon>
                     </MenuItem>
-                    <MenuItem Header="Expiring in 1 Day">
+                    <MenuItem Header="{providers:LocalizationResource MenuShowEntriesExpiringIn1Day}">
                         <MenuItem.Icon>
                             <Image Source="{DynamicResource HistoryClear}" />
                         </MenuItem.Icon>
                     </MenuItem>
-                    <MenuItem Header="Expiring in 2 Days">
+                    <MenuItem Header="{providers:LocalizationResource MenuShowEntriesExpiringIn2Days}">
                         <MenuItem.Icon>
                             <Image Source="{DynamicResource HistoryClear}" />
                         </MenuItem.Icon>
                     </MenuItem>
-                    <MenuItem Header="Expiring in 3 Days">
+                    <MenuItem Header="{providers:LocalizationResource MenuShowEntriesExpiringIn3Days}">
                         <MenuItem.Icon>
                             <Image Source="{DynamicResource HistoryClear}" />
                         </MenuItem.Icon>
                     </MenuItem>
-                    <MenuItem Header="Expiring in 1 Week">
+                    <MenuItem Header="{providers:LocalizationResource MenuShowEntriesExpiringIn1Week}">
                         <MenuItem.Icon>
                             <Image Source="{DynamicResource HistoryClear}" />
                         </MenuItem.Icon>
                     </MenuItem>
-                    <MenuItem Header="Expiring in 2 Weeks">
+                    <MenuItem Header="{providers:LocalizationResource MenuShowEntriesExpiringIn2Weeks}">
                         <MenuItem.Icon>
                             <Image Source="{DynamicResource HistoryClear}" />
                         </MenuItem.Icon>
                     </MenuItem>
-                    <MenuItem Header="Expiring in 4 Weeks">
+                    <MenuItem Header="{providers:LocalizationResource MenuShowEntriesExpiringIn4Weeks}">
                         <MenuItem.Icon>
                             <Image Source="{DynamicResource HistoryClear}" />
                         </MenuItem.Icon>
                     </MenuItem>
-                    <MenuItem Header="Expiring in 8 Weeks">
+                    <MenuItem Header="{providers:LocalizationResource MenuShowEntriesExpiringIn8Weeks}">
                         <MenuItem.Icon>
                             <Image Source="{DynamicResource HistoryClear}" />
                         </MenuItem.Icon>
                     </MenuItem>
-                    <MenuItem Header="Expiring in the Future">
+                    <MenuItem Header="{providers:LocalizationResource MenuShowEntriesExpiringInFuture}">
                         <MenuItem.Icon>
                             <Image Source="{DynamicResource HistoryClear}" />
                         </MenuItem.Icon>
                     </MenuItem>
                     <Separator />
-                    <MenuItem Header="Selected Entry's Group">
+                    <MenuItem Header="{providers:LocalizationResource MenuSelectedEntryGroup}">
                         <MenuItem.Icon>
                             <Image Source="{DynamicResource FolderBlueOpen}" />
                         </MenuItem.Icon>
                     </MenuItem>
                 </MenuItem>
-                <MenuItem Header="Show Entries By Tag" />
+                <MenuItem Header="{providers:LocalizationResource MenuShowEntriesByTag}" />
                 <Separator />
-                <MenuItem Header="Find...">
+                <MenuItem Header="{providers:LocalizationResource MenuFind}">
                     <MenuItem.Icon>
                         <Image Source="{DynamicResource XMag}" />
                     </MenuItem.Icon>
                 </MenuItem>
             </MenuItem>
-            <MenuItem Header="View">
-                <MenuItem Header="Change Language...">
+            <MenuItem Header="{providers:LocalizationResource MenuView}">
+                <MenuItem Header="{providers:LocalizationResource MenuChangeLanguage}">
                     <MenuItem.Icon>
                         <Image Source="{DynamicResource KeyboardLayout}" />
                     </MenuItem.Icon>
                 </MenuItem>
                 <Separator />
-                <MenuItem Header="Show Toolbar" />
-                <MenuItem Header="Show Entry View" />
-                <MenuItem Header="Window Layout">
-                    <MenuItem Header="Stacked">
+                <MenuItem Header="{providers:LocalizationResource MenuShowToolbar}" />
+                <MenuItem Header="{providers:LocalizationResource MenuEntryView}" />
+                <MenuItem Header="{providers:LocalizationResource MenuWindowLayout}">
+                    <MenuItem Header="{providers:LocalizationResource MenuWindowLayoutStacked}">
                         <MenuItem.Icon>
                             <Image Source="{DynamicResource Window2Horz1Vert}" />
                         </MenuItem.Icon>
                     </MenuItem>
-                    <MenuItem Header="Side by Side">
+                    <MenuItem Header="{providers:LocalizationResource MenuWindowLayoutSideBySide}">
                         <MenuItem.Icon>
                             <Image Source="{DynamicResource Window3Horz}" />
                         </MenuItem.Icon>
                     </MenuItem>
                 </MenuItem>
                 <Separator />
-                <MenuItem Header="Always On Top" />
+                <MenuItem Header="{providers:LocalizationResource MenuAlwaysOnTop}" />
                 <Separator />
-                <MenuItem Header="Configure Columns...">
+                <MenuItem Header="{providers:LocalizationResource MenuConfigureColumns}">
                     <MenuItem.Icon>
                         <Image Source="{DynamicResource ViewDetailed}" />
                     </MenuItem.Icon>
                 </MenuItem>
-                <MenuItem Header="Sort By..." />
-                <MenuItem Header="TAN View Options">
-                    <MenuItem Header="Use Simple List View for TAN-Only Groups" />
-                    <MenuItem Header="Show TAN Indices in Entry Titles" />
+                <MenuItem Header="{providers:LocalizationResource MenuSortBy}" />
+                <MenuItem Header="{providers:LocalizationResource MenuTanViewOptions}">
+                    <MenuItem Header="{providers:LocalizationResource MenuTanViewOptionsSimpleListViewTanOnlyGroups}" />
+                    <MenuItem Header="{providers:LocalizationResource MenuTanViewOptionsShowTanIndicesInEntryTitles}" />
                 </MenuItem>
-                <MenuItem Header="Grouping in Entry List" />
+                <MenuItem Header="{providers:LocalizationResource MenuGroupingInEntryList}" />
                 <Separator />
-                <MenuItem Header="Show Entries of Subgroups" />
+                <MenuItem Header="{providers:LocalizationResource MenuShowSubgroupEntries}" />
             </MenuItem>
-            <MenuItem Header="Tools">
-                <MenuItem Header="Generate Password...">
+            <MenuItem Header="{providers:LocalizationResource MenuTools}">
+                <MenuItem Header="{providers:LocalizationResource MenuGeneratePassword}">
                     <MenuItem.Icon>
                         <Image Source="{DynamicResource KeyNew}" />
                     </MenuItem.Icon>
                 </MenuItem>
-                <MenuItem Header="Generate Password List...">
+                <MenuItem Header="{providers:LocalizationResource MenuGeneratePasswordList}">
                     <MenuItem.Icon>
                         <Image Source="{DynamicResource KgpgGen}" />
                     </MenuItem.Icon>
                 </MenuItem>
                 <Separator />
-                <MenuItem Header="TAN Wizard...">
+                <MenuItem Header="{providers:LocalizationResource MenuTanWizard}">
                     <MenuItem.Icon>
                         <Image Source="{DynamicResource Wizard}" />
                     </MenuItem.Icon>
                 </MenuItem>
-                <MenuItem Header="Database Tools">
-                    <MenuItem Header="Database Maintenance...">
+                <MenuItem Header="{providers:LocalizationResource MenuDatabaseTools}">
+                    <MenuItem Header="{providers:LocalizationResource MenuDatabaseMaintenance}">
                         <MenuItem.Icon>
                             <Image Source="{DynamicResource PackageSettings}" />
                         </MenuItem.Icon>
                     </MenuItem>
                     <Separator />
-                    <MenuItem Header="Delete Duplicated Entries">
+                    <MenuItem Header="{providers:LocalizationResource MenuDeleteDuplicatedEntries}">
                         <MenuItem.Icon>
                             <Image Source="{DynamicResource DeleteEntry}" />
                         </MenuItem.Icon>
                     </MenuItem>
-                    <MenuItem Header="Delete Empty Groups">
+                    <MenuItem Header="{providers:LocalizationResource MenuDeleteEmptyGroups}">
                         <MenuItem.Icon>
                             <Image Source="{DynamicResource FolderLocked}" />
                         </MenuItem.Icon>
                     </MenuItem>
-                    <MenuItem Header="Delete Unused Custom Icons">
+                    <MenuItem Header="{providers:LocalizationResource MenuDeleteUnusedCustomIcons}">
                         <MenuItem.Icon>
                             <Image Source="{DynamicResource TrashcanFull}" />
                         </MenuItem.Icon>
                     </MenuItem>
                     <Separator />
-                    <MenuItem Header="XML Replace...">
+                    <MenuItem Header="{providers:LocalizationResource MenuXmlReplace}">
                         <MenuItem.Icon>
                             <Image Source="{DynamicResource Binary}" />
                         </MenuItem.Icon>
                     </MenuItem>
                 </MenuItem>
                 <Separator />
-                <MenuItem Header="Triggers...">
+                <MenuItem Header="{providers:LocalizationResource MenuTriggers}">
                     <MenuItem.Icon>
                         <Image Source="{DynamicResource MakeKDevelop}" />
                     </MenuItem.Icon>
                 </MenuItem>
-                <MenuItem Header="Plugins...">
+                <MenuItem Header="{providers:LocalizationResource MenuPlugins}">
                     <MenuItem.Icon>
                         <Image Source="{DynamicResource BlockDevice}" />
                     </MenuItem.Icon>
                 </MenuItem>
                 <Separator />
-                <MenuItem Header="Options...">
+                <MenuItem Header="{providers:LocalizationResource MenuOptions}">
                     <MenuItem.Icon>
                         <Image Source="{DynamicResource Misc}" />
                     </MenuItem.Icon>
                 </MenuItem>
             </MenuItem>
-            <MenuItem Header="Help">
-                <MenuItem Header="Help Contents">
+            <MenuItem Header="{providers:LocalizationResource MenuHelp}">
+                <MenuItem Header="{providers:LocalizationResource MenuHelpContents}">
                     <MenuItem.Icon>
                         <Image Source="{DynamicResource ToggleLog}" />
                     </MenuItem.Icon>
                 </MenuItem>
-                <MenuItem Header="Help Source...">
+                <MenuItem Header="{providers:LocalizationResource MenuHelpSource}">
                     <MenuItem.Icon>
                         <Image Source="{DynamicResource KOrganizer}" />
                     </MenuItem.Icon>
                 </MenuItem>
                 <Separator />
-                <MenuItem Header="Macht Authenticate Website...">
+                <MenuItem Header="{providers:LocalizationResource MenuAppWebsite}">
                     <MenuItem.Icon>
                         <Image Source="{DynamicResource FolderHome}" />
                     </MenuItem.Icon>
                 </MenuItem>
-                <MenuItem Header="Donate...">
+                <MenuItem Header="{providers:LocalizationResource MenuDonate}">
                     <MenuItem.Icon>
                         <Image Source="{DynamicResource Identity}" />
                     </MenuItem.Icon>
                 </MenuItem>
                 <Separator />
-                <MenuItem Header="Check for Updates">
+                <MenuItem Header="{providers:LocalizationResource MenuCheckUpdates}">
                     <MenuItem.Icon>
                         <Image Source="{DynamicResource Ftp}" />
                     </MenuItem.Icon>
                 </MenuItem>
                 <Separator />
-                <MenuItem Header="About Macht Authenticate...">
+                <MenuItem Header="{providers:LocalizationResource MenuAboutApp}">
                     <MenuItem.Icon>
                         <Image Source="{DynamicResource Help}" />
                     </MenuItem.Icon>

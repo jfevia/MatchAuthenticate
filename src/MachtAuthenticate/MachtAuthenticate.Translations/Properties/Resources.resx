@@ -177,7 +177,7 @@
   <data name="MenuSynchronizeWithUrl" xml:space="preserve">
     <value>Synchronize with URL...</value>
   </data>
-  <data name="MenySynchronizeRecentFiles" xml:space="preserve">
+  <data name="MenuSynchronizeRecentFiles" xml:space="preserve">
     <value>Recent Files</value>
   </data>
   <data name="MenuLockWorkspace" xml:space="preserve">
@@ -185,5 +185,155 @@
   </data>
   <data name="MenuExit" xml:space="preserve">
     <value>Exit</value>
+  </data>
+  <data name="MenuEdit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="MenuShowEntries" xml:space="preserve">
+    <value>Show Entries</value>
+  </data>
+  <data name="MenuShowAllEntries" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="MenuShowExpiredEntries" xml:space="preserve">
+    <value>Expired</value>
+  </data>
+  <data name="MenuShowEntriesExpiringIn1Day" xml:space="preserve">
+    <value>Expiring in 1 Day</value>
+  </data>
+  <data name="MenuShowEntriesExpiringIn2Days" xml:space="preserve">
+    <value>Expiring in 2 Days</value>
+  </data>
+  <data name="MenuShowEntriesExpiringIn3Days" xml:space="preserve">
+    <value>Expiring in 3 Days</value>
+  </data>
+  <data name="MenuShowEntriesExpiringIn1Week" xml:space="preserve">
+    <value>Expiring in 1 Week</value>
+  </data>
+  <data name="MenuShowEntriesExpiringIn2Weeks" xml:space="preserve">
+    <value>Expiring in 2 Weeks</value>
+  </data>
+  <data name="MenuShowEntriesExpiringIn4Weeks" xml:space="preserve">
+    <value>Expiring in 4 Weeks</value>
+  </data>
+  <data name="MenuShowEntriesExpiringIn8Weeks" xml:space="preserve">
+    <value>Expiring in 8 Weeks</value>
+  </data>
+  <data name="MenuShowEntriesExpiringInFuture" xml:space="preserve">
+    <value>Expiring in the Future</value>
+  </data>
+  <data name="MenuSelectedEntryGroup" xml:space="preserve">
+    <value>Selected Entry's Group</value>
+  </data>
+  <data name="MenuShowEntriesByTag" xml:space="preserve">
+    <value>Show Entries By Tag</value>
+  </data>
+  <data name="MenuFind" xml:space="preserve">
+    <value>Find...</value>
+  </data>
+  <data name="MenuView" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="MenuChangeLanguage" xml:space="preserve">
+    <value>Change Language...</value>
+  </data>
+  <data name="MenuShowToolbar" xml:space="preserve">
+    <value>Show Toolbar</value>
+  </data>
+  <data name="MenuEntryView" xml:space="preserve">
+    <value>Show Entry View</value>
+  </data>
+  <data name="MenuWindowLayout" xml:space="preserve">
+    <value>Window Layout</value>
+  </data>
+  <data name="MenuWindowLayoutStacked" xml:space="preserve">
+    <value>Stacked</value>
+  </data>
+  <data name="MenuWindowLayoutSideBySide" xml:space="preserve">
+    <value>Side by Side</value>
+  </data>
+  <data name="MenuAlwaysOnTop" xml:space="preserve">
+    <value>Always On Top</value>
+  </data>
+  <data name="MenuConfigureColumns" xml:space="preserve">
+    <value>Configure Columns...</value>
+  </data>
+  <data name="MenuSortBy" xml:space="preserve">
+    <value>Sort By...</value>
+  </data>
+  <data name="MenuTanViewOptions" xml:space="preserve">
+    <value>TAN View Options</value>
+  </data>
+  <data name="MenuTanViewOptionsSimpleListViewTanOnlyGroups" xml:space="preserve">
+    <value>Use Simple List View for TAN-Only Groups</value>
+  </data>
+  <data name="MenuTanViewOptionsShowTanIndicesInEntryTitles" xml:space="preserve">
+    <value>Show TAN Indices in Entry Titles</value>
+  </data>
+  <data name="MenuGroupingInEntryList" xml:space="preserve">
+    <value>Grouping in Entry List</value>
+  </data>
+  <data name="MenuShowSubgroupEntries" xml:space="preserve">
+    <value>Show Entries of Subgroups</value>
+  </data>
+  <data name="MenuTools" xml:space="preserve">
+    <value>Tools</value>
+  </data>
+  <data name="MenuGeneratePassword" xml:space="preserve">
+    <value>Generate Password...</value>
+  </data>
+  <data name="MenuGeneratePasswordList" xml:space="preserve">
+    <value>Generate Password List...</value>
+  </data>
+  <data name="MenuTanWizard" xml:space="preserve">
+    <value>TAN Wizard...</value>
+  </data>
+  <data name="MenuDatabaseTools" xml:space="preserve">
+    <value>Database Tools</value>
+  </data>
+  <data name="MenuDatabaseMaintenance" xml:space="preserve">
+    <value>Database Maintenance...</value>
+  </data>
+  <data name="MenuDeleteDuplicatedEntries" xml:space="preserve">
+    <value>Delete Duplicated Entries</value>
+  </data>
+  <data name="MenuDeleteEmptyGroups" xml:space="preserve">
+    <value>Delete Empty Groups</value>
+  </data>
+  <data name="MenuDeleteUnusedCustomIcons" xml:space="preserve">
+    <value>Delete Unused Custom Icons</value>
+  </data>
+  <data name="MenuXmlReplace" xml:space="preserve">
+    <value>XML Replace...</value>
+  </data>
+  <data name="MenuTriggers" xml:space="preserve">
+    <value>Triggers...</value>
+  </data>
+  <data name="MenuPlugins" xml:space="preserve">
+    <value>Plugins...</value>
+  </data>
+  <data name="MenuOptions" xml:space="preserve">
+    <value>Options...</value>
+  </data>
+  <data name="MenuHelp" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="MenuHelpContents" xml:space="preserve">
+    <value>Help Contents</value>
+  </data>
+  <data name="MenuHelpSource" xml:space="preserve">
+    <value>Help Source...</value>
+  </data>
+  <data name="MenuAppWebsite" xml:space="preserve">
+    <value>Macht Authenticate Website...</value>
+  </data>
+  <data name="MenuDonate" xml:space="preserve">
+    <value>Donate...</value>
+  </data>
+  <data name="MenuCheckUpdates" xml:space="preserve">
+    <value>Check for Updates</value>
+  </data>
+  <data name="MenuAboutApp" xml:space="preserve">
+    <value>About Macht Authenticate...</value>
   </data>
 </root>
